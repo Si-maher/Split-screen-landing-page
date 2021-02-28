@@ -7,6 +7,42 @@ body{
     overflow: hidden;
     margin: 0;
 }
+h1  {
+    font-size: 4rem;
+    font-weight: 100;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    white-space: nowrap;
+    transform: translateX(-50%);
+    
+}
+.btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color: #fff;
+    border: solid #fff 0.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+    margin-top: 6rem;
+}
+.split.left .btn:hover {
+    background-color: rgba(87, 84,236, 1);
+    border-color: rgba(87, 84,236, 1);
+}
+.split.right .btn:hover {
+    background-color: rgba(28,128,28,1);
+    border-color: rgba(28,128,28,1);
+}
 .container {
     position: relative;
     height: 100%;
