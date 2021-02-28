@@ -83,3 +83,21 @@ h1  {
     height: 100%;
 
 }
+.hover-left .left {
+    width: 75%;
+}
+.hover-left .right {
+    width: 25%;
+}
+.hover-right .right {
+    width: 75%;
+}
+.hover-right .left {
+    width: 25%;
+}
+.split.right,
+.split.right::before,
+.split.left,
+.split.left::before {
+    transition: all 1000ms ease-in-out;
+}
